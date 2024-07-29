@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="shortcut icon" href="https://www.claremorriscu.ie/wp-content/uploads/2019/02/Quiz-Logo.png">
+
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="start-screen">
+        <h1 data-text="Welcome to the Quiz App" style="--clr:#FFCC67 "> Welcome to the Quiz App</h1>
+       
+        <div class="topic-buttons">
+            <div class="icons">
+            <button class="topic-button" data-topic="Computer Science" style="--clr:#F7CBFC">Computer Science <br><a> <i class="fa-solid fa-computer"></i></a></button>
+            <button class="topic-button" data-topic="General Knowledge" style="--clr:#F7CBFC">General Knowledge <br> <a><i class="fa-solid fa-brain"></i></i></a></button>
+            <button class="topic-button" data-topic="Puzzle" style="--clr:#F7CBFC">Puzzle <br> <a><i class="fa-solid fa-puzzle-piece"></i></a></button>
+            <button class="topic-button" data-topic="Vocabulary" style="--clr:#F7CBFC">Vocabulary <br> <a><i class="fa-solid fa-book"></i></a></button>
+        </div>
+        </div>
+    </div>
+    
+    <div id="display-container" class="hide">
+        <div class="timer-div">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png" width="20px" />
+            <span id="time-left">10s</span>
+        </div>
+        <div class="number-of-question" style="font-weight: bolder; font-size: 20px;">1 of 5 Question</div><br><hr><br>
+
+        <div id="container"></div>
+        <button id="next-button">Next</button>
+    </div>
+
+    <div class="score-container hide">
+        <div class="result-box">
+        <h2>QUIZ RESULT</h2>
+        <div class="percentage-container">
+            
+        </div>
+    
+        <div id="user-score"></div>
+        <button id="restart">Restart</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
