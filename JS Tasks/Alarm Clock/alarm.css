@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2016/05/11/retro-clock-wallpaper.jpg');
+    background-size: cover;
+  
+}
+
+
+.container {
+    background-color:transparent;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#currentTime {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="time"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: #815d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.container .icon{
+    height: 1000px;
+    width: 100px;
+
+}
+
+.fa-clock {
+    font-size: 50px; /* Adjust this value to increase/decrease the size */
+    color: #000000; /* Change the color if needed */
+    
+}
